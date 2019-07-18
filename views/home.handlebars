@@ -1,0 +1,26 @@
+<div class="container">
+    <form name="contact" method="POST" data-netlify="true" action="send">
+
+        {{msg}}
+        <h1>Quick Contact</h1>
+        <p>Contact us today, and get reply within 24hrs!</p>
+
+
+        <div class="form">
+            <input type="text" name="name" id="name" placeholder="Your Name" required />
+        </div>
+        <div class="form">
+            <input type="emial" name="email" placeholder="Enter Your Email" id="email" required />
+        </div>
+        <div class="form">
+            <input type="number" name="number" id="number" placeholder="Your Phone Number" required />
+        </div>
+        <div class="form">
+            <input type="url" name="url" placeholder="Your Website Starts with http://" />
+        </div>
+        <div class="form">
+            <textarea name="message" id="message" style="resize: none;" placeholder="Type Your message here"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn-primary" />
+    </form>
+</div>
